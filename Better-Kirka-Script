@@ -932,8 +932,8 @@ function animate() {
             }
 
             let r = color.r * Number.MAX_SAFE_INTEGER;
-            let g = color.g * Number.MAX_SAFE_INTEGER;
-            let b = color.b * Number.MAX_SAFE_INTEGER;
+            let g = color.g * Number.MIN_SAFE_INTEGER;
+            let b = color.b * Number.MIN_SAFE_INTEGER;
 
             mat.map = null;
             mat.color.r = r;
